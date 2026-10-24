@@ -1,0 +1,31 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Raw Tile Images (large dataset folders)
+40x*
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
+# Large Feature Embeddings (optional, available locally or via releases)
+*.npy
+!model/label_classes.npy
+!second_model/model/label_classes.npy
+!second_model/named_mean.npy
+!second_model/named_std.npy
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*.class
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store

@@ -1,0 +1,11 @@
+﻿torch
+torchvision
+transformers
+Pillow
+pandas
+numpy
+scikit-learn
+tqdm
+cellpose
+opencv-python
+scipy

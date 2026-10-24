@@ -1,0 +1,20 @@
+{
+  "in_dim": 1546,
+  "num_classes": 4,
+  "classes": [
+    "cohesive",
+    "dispersive",
+    "no_feature",
+    "noncohesive"
+  ],
+  "backbone": "owkin/phikon",
+  "pooling": "mean_max",
+  "grid_size": 4,
+  "crop_size": 224,
+  "embedding_dim": 768,
+  "named_features": 10,
+  "model_version": "v2_deep_plus_named",
+  "folds": 5,
+  "mean_macro_f1": 0.8144910208627019,
+  "std_macro_f1": 0.024769071967646394
+}
