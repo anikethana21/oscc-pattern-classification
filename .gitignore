@@ -29,3 +29,6 @@ __pycache__/
 *.swp
 Thumbs.db
 .DS_Store
+
+!confusion_matrices.png
+!benchmark_out/*.png
