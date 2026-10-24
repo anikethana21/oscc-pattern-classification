@@ -15,6 +15,6 @@
   "named_features": 10,
   "model_version": "v2_deep_plus_named",
   "folds": 5,
-  "mean_macro_f1": 0.8144910208627019,
-  "std_macro_f1": 0.024769071967646394
+  "mean_macro_f1": 0.8073523757338238,
+  "std_macro_f1": 0.0148644561491488
 }

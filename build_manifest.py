@@ -32,7 +32,7 @@ CLASS_ALIASES = {
     "no-feature": "no_feature",
 }
 FOLDER_RE = re.compile(r"^(?P<name>.+?)(?:\s*\((?P<n>\d+)\))?$")
-FILE_RE = re.compile(r"^(?P<slide>.+)_x(?P<x>\d+)_y(?P<y>\d+)$")
+FILE_RE = re.compile(r"^(?P<slide>.+)_x(?P<x>\d+)_y(?P<y>\d+)(?:\s*\(\d+\))?$")
 MAG_RE = re.compile(r"^\d+x$", re.IGNORECASE)
 IMG_EXT = {".png", ".jpg", ".jpeg", ".tif", ".tiff"}
 

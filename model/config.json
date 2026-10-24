@@ -13,6 +13,6 @@
   "crop_size": 224,
   "embedding_dim": 768,
   "folds": 5,
-  "mean_macro_f1": 0.8062303843689469,
-  "std_macro_f1": 0.03374860124408604
+  "mean_macro_f1": 0.8099848905218756,
+  "std_macro_f1": 0.01912595441287564
 }
