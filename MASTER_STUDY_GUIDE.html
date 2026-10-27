@@ -1,0 +1,514 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OSCC Histopathology AI: Master Architecture & Study Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0b0f19;
+    --card-bg: #131b2e;
+    --card-border: #1e2c4a;
+    --text-main: #e2e8f0;
+    --text-muted: #94a3b8;
+    --primary: #3b82f6;
+    --primary-glow: rgba(59, 130, 246, 0.25);
+    --accent: #8b5cf6;
+    --accent-green: #10b981;
+    --accent-orange: #f59e0b;
+    --accent-red: #ef4444;
+    --code-bg: #070a13;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background-color: var(--bg);
+    color: var(--text-main);
+    line-height: 1.6;
+    padding: 30px 20px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 45px;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, rgba(30,41,59,0.8) 0%, rgba(15,23,42,0.95) 100%);
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  }
+  header h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    background: linear-gradient(90deg, #60a5fa, #c084fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 12px;
+  }
+  header p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0 4px;
+  }
+  .badge-blue { background: rgba(59, 130, 246, 0.2); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.4); }
+  .badge-green { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
+  .badge-purple { background: rgba(139, 92, 246, 0.2); color: #c084fc; border: 1px solid rgba(139, 92, 246, 0.4); }
+  .badge-orange { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.4); }
+
+  h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 35px 0 18px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--card-border);
+    color: #f8fafc;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 22px 0 12px;
+    color: #93c5fd;
+  }
+
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  }
+
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 18px 0;
+    font-size: 0.95rem;
+  }
+  th, td {
+    padding: 12px 14px;
+    text-align: left;
+    border-bottom: 1px solid var(--card-border);
+  }
+  th {
+    background-color: rgba(30, 41, 59, 0.6);
+    color: #cbd5e1;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+  }
+  tr:hover { background-color: rgba(255,255,255,0.02); }
+  .highlight-row { background: rgba(59, 130, 246, 0.1); font-weight: 600; }
+
+  /* Flow Pipeline Boxes */
+  .flow-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 20px 0;
+  }
+  .flow-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .flow-box {
+    background: var(--code-bg);
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+    padding: 14px 18px;
+    text-align: center;
+    min-width: 190px;
+    box-shadow: 0 0 15px var(--primary-glow);
+  }
+  .flow-box.purple { border-color: var(--accent); box-shadow: 0 0 15px rgba(139, 92, 246, 0.25); }
+  .flow-box.green { border-color: var(--accent-green); box-shadow: 0 0 15px rgba(16, 185, 129, 0.25); }
+  .flow-box.orange { border-color: var(--accent-orange); box-shadow: 0 0 15px rgba(245, 158, 11, 0.25); }
+
+  .flow-box .title { font-weight: 700; font-size: 0.95rem; color: #fff; margin-bottom: 4px; }
+  .flow-box .shape { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: #38bdf8; }
+  .flow-box .desc { font-size: 0.78rem; color: var(--text-muted); margin-top: 4px; }
+  .arrow-down { text-align: center; font-size: 1.4rem; color: #64748b; margin: -4px 0; }
+  .arrow-right { font-size: 1.4rem; color: #64748b; }
+
+  .code-block {
+    background: var(--code-bg);
+    border: 1px solid #1e293b;
+    border-radius: 8px;
+    padding: 14px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    color: #e2e8f0;
+    overflow-x: auto;
+    margin: 14px 0;
+  }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  @media(max-width: 850px) { .grid-2 { grid-template-columns: 1fr; } }
+
+  .img-card {
+    text-align: center;
+    background: #000;
+    border-radius: 12px;
+    padding: 15px;
+    border: 1px solid var(--card-border);
+    margin: 18px 0;
+  }
+  .img-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .img-caption {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 10px;
+  }
+
+  .key-metric {
+    display: inline-flex;
+    flex-direction: column;
+    background: rgba(15, 23, 42, 0.8);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 12px 18px;
+    margin: 6px;
+    min-width: 140px;
+  }
+  .key-metric .val { font-size: 1.5rem; font-weight: 800; color: #38bdf8; }
+  .key-metric .lbl { font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1>OSCC Histopathology AI Master Architecture Guide</h1>
+  <p>Visual Tensor Flow, Neural Mechanisms, Dataset Provenance & Head-to-Head Benchmarks Across Models 1 to 5</p>
+  <div style="margin-top: 18px;">
+    <span class="badge badge-blue">Magnification: 40x</span>
+    <span class="badge badge-purple">N = 2,661 Curated Tiles</span>
+    <span class="badge badge-green">Dual Pathologist Annotations</span>
+    <span class="badge badge-orange">Locked Test Split (N = 267)</span>
+  </div>
+</header>
+
+<!-- SECTION 1: DATASET -->
+<h2>1. Dataset Composition & Split Strategy</h2>
+<div class="card">
+  <p>Images were collected across 6 distinct acquisition batches (<code>40x-001</code> through <code>006</code>) by two independent annotators on distinct, non-overlapping tissue fields. To guarantee zero data leakage, a strict <strong>Stratified Patient-Level Split</strong> was established:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Class Name</th>
+        <th>Clinical Phenotype</th>
+        <th>Full Dataset</th>
+        <th>Train Split (80%)</th>
+        <th>Val Split (10%)</th>
+        <th>Locked Test Split (10%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>cohesive</strong></td>
+        <td>Large solid tumor sheets (>50 cells)</td>
+        <td>1,550</td>
+        <td>1,240</td>
+        <td>155</td>
+        <td>155</td>
+      </tr>
+      <tr>
+        <td><strong>no_feature</strong></td>
+        <td>Acellular stroma, collagen, clean background</td>
+        <td>646</td>
+        <td>516</td>
+        <td>65</td>
+        <td>65</td>
+      </tr>
+      <tr>
+        <td><strong>noncohesive</strong></td>
+        <td>Intermediate detached clusters (15–50 cells)</td>
+        <td>278</td>
+        <td>222</td>
+        <td>27</td>
+        <td>29</td>
+      </tr>
+      <tr>
+        <td><strong>dispersive</strong></td>
+        <td>Solitary cells & cords (<15 cells) — High Risk</td>
+        <td>187</td>
+        <td>150</td>
+        <td>19</td>
+        <td>18</td>
+      </tr>
+      <tr class="highlight-row">
+        <td><strong>TOTAL</strong></td>
+        <td>Curated Non-Duplicate Tiles</td>
+        <td><strong>2,661</strong></td>
+        <td><strong>2,128</strong></td>
+        <td><strong>266</strong></td>
+        <td><strong>267</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 style="margin-top: 20px;">Dataset Scaling to ~2,500 Tiles / Class (~10,000 Tiles Total)</h3>
+  <p>In Models 4 and 5, the training set was scaled from 2,128 to <strong>10,000 tiles</strong> using targeted geometric (random rotation, elastic distortion) and photometric (hue/saturation jitter, noise) augmentations applied heavily to <code>dispersive</code> and <code>noncohesive</code>. Validation and locked test sets remained 100% unaugmented.</p>
+</div>
+
+<!-- SECTION 2: COMPARATIVE RESULTS -->
+<h2>2. Complete Benchmark Comparison on Locked Test Set (N=267 Tiles)</h2>
+<div class="card">
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-around; margin-bottom: 20px;">
+    <div class="key-metric"><span class="val">87.64%</span><span class="lbl">Top Accuracy (Model 4)</span></div>
+    <div class="key-metric"><span class="val">0.8321</span><span class="lbl">Top Macro-F1 (Model 4)</span></div>
+    <div class="key-metric"><span class="val">100.0%</span><span class="lbl">Dispersive Precision (Model 5)</span></div>
+    <div class="key-metric"><span class="val">+13.5%</span><span class="lbl">Gain: Model 1 to Model 4</span></div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Model</th>
+        <th>Architecture & Core Strategy</th>
+        <th>Macro-F1</th>
+        <th>Accuracy</th>
+        <th>Cohesive F1</th>
+        <th>Dispersive F1</th>
+        <th>No Feature F1</th>
+        <th>Noncohesive F1</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Model 1</strong></td>
+        <td>Baseline Phikon Deep Linear Probe</td>
+        <td>0.6974</td>
+        <td>74.9%</td>
+        <td>0.8654</td>
+        <td>0.6452</td>
+        <td>0.7846</td>
+        <td>0.4946</td>
+      </tr>
+      <tr>
+        <td><strong>Model 2</strong></td>
+        <td>Phikon + 10 Named Morphological Features</td>
+        <td>0.7424</td>
+        <td>79.8%</td>
+        <td>0.8800</td>
+        <td>0.7368</td>
+        <td>0.8125</td>
+        <td>0.5405</td>
+      </tr>
+      <tr>
+        <td><strong>Model 3</strong></td>
+        <td>HybridPath (3-Branch Dynamic Gating)</td>
+        <td>0.7587</td>
+        <td>80.9%</td>
+        <td>0.8874</td>
+        <td>0.8000</td>
+        <td>0.8182</td>
+        <td>0.5294</td>
+      </tr>
+      <tr class="highlight-row">
+        <td><strong>Model 4</strong></td>
+        <td>Specialist Multi-Branch (~2.5k Scaled Aug)</td>
+        <td><strong>0.8321</strong></td>
+        <td><strong>87.6%</strong></td>
+        <td>0.9024</td>
+        <td><strong>0.8485</strong></td>
+        <td><strong>0.8819</strong></td>
+        <td><strong>0.6957</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Model 5</strong></td>
+        <td>Recurrent Feedback Looping Dual-Stage Network</td>
+        <td>0.8179</td>
+        <td>87.0%</td>
+        <td><strong>0.9040</strong></td>
+        <td>0.8387 <em>(100% Prec)</em></td>
+        <td>0.8750</td>
+        <td>0.6538</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="img-card">
+    <img src="all_5_models_confusion_matrix.png" alt="All 5 Models Confusion Matrix Comparison">
+    <div class="img-caption">Figure 1: Full 5-Panel Confusion Matrix and Metric Evolution on the Locked Test Set (N=267 tiles).</div>
+  </div>
+</div>
+
+<!-- SECTION 3: VISUAL TENSOR FLOWS -->
+<h2>3. Visual Tensor Flow: How Data Moves Layer-by-Layer</h2>
+
+<!-- MODEL 4 -->
+<div class="card">
+  <h3>Model 4: 3-Branch Gated Specialist Network Flow</h3>
+  <div class="flow-container">
+    <div class="flow-row">
+      <div class="flow-box">
+        <div class="title">Input Tile</div>
+        <div class="shape">[B, 3, 512, 512]</div>
+        <div class="desc">Raw 40x WSI Patch</div>
+      </div>
+    </div>
+    <div class="arrow-down">▼ Split into 3 Pathways</div>
+    <div class="flow-row">
+      <div class="flow-box blue">
+        <div class="title">Branch A: Frozen ViT</div>
+        <div class="shape">16 Crops: [B, 16, 3, 224, 224]</div>
+        <div class="desc">12 Phikon Blocks Frozen<br>Mean/Max Pool -> [B, 1536]<br>Linear(1536->512) + GELU</div>
+      </div>
+      <div class="flow-box purple">
+        <div class="title">Branch B: Adaptive ViT</div>
+        <div class="shape">16 Crops: [B, 16, 3, 224, 224]</div>
+        <div class="desc">Blocks 9-11 Unfrozen (LR=1e-5)<br>Mean/Max Pool -> [B, 1536]<br>Linear(1536->512) + GELU</div>
+      </div>
+      <div class="flow-box green">
+        <div class="title">Branch C: TileCNN</div>
+        <div class="shape">Resized: [B, 3, 256, 256]</div>
+        <div class="desc">4 Conv Stages (32->64->128->256)<br>AdaptiveAvgPool(4x4)<br>Linear(4096->512) + GELU</div>
+      </div>
+    </div>
+    <div class="arrow-down">▼ Concat Raw Outputs: [B, 3584] & Projections: P_a, P_b, P_c [B, 512]</div>
+    <div class="flow-row">
+      <div class="flow-box orange">
+        <div class="title">Dynamic Gating Network</div>
+        <div class="shape">Linear(3584->128) -> GELU -> Linear(128->3) -> Softmax</div>
+        <div class="desc">Computes Soft Weights [w_a, w_b, w_c] summing to 1.0</div>
+      </div>
+    </div>
+    <div class="arrow-down">▼ Fused Representation: F_fused = w_a*P_a + w_b*P_b + w_c*P_c</div>
+    <div class="flow-row">
+      <div class="flow-box">
+        <div class="title">Deep Classification Head</div>
+        <div class="shape">Linear(512->256) -> GELU -> Dropout(0.3) -> Linear(256->128) -> GELU -> Linear(128->4)</div>
+        <div class="desc">Output: 4-Class Logits [B, 4] | Trained with Class-Weighted Focal Loss (gamma=2.0)</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODEL 5 -->
+<div class="card">
+  <h3>Model 5: Recurrent Feedback Looping Dual-Stage Network Flow</h3>
+  <div class="flow-container">
+    <div class="flow-row">
+      <div class="flow-box">
+        <div class="title">Input Tile</div>
+        <div class="shape">[B, 3, 512, 512]</div>
+      </div>
+    </div>
+    <div class="arrow-down">▼ Pass to Module 1 Screener</div>
+    <div class="flow-row">
+      <div class="flow-box blue">
+        <div class="title">Module 1 (Screener)</div>
+        <div class="shape">Frozen Phikon [B, 1536] -> Linear(1536->512) + LayerNorm + GELU</div>
+        <div class="desc">Produces initial latent state <strong>h1 [B, 512]</strong> and early screening logits</div>
+      </div>
+    </div>
+    <div class="arrow-down">▼ Remaining features conditioned on h1 passed to Module 2</div>
+    <div class="flow-row">
+      <div class="flow-box purple">
+        <div class="title">Module 2 (Specialist Network)</div>
+        <div class="shape">Concat[F_frozen, F_adapt, F_cnn, h1] -> [B, 4096]</div>
+        <div class="desc">Multi-Branch Dynamic Gated Fusion produces specialist state <strong>h2 [B, 512]</strong></div>
+      </div>
+    </div>
+    <div class="arrow-down">▼ RECURRENT FEEDBACK LOOP (Module 2 -> Module 1)</div>
+    <div class="flow-row">
+      <div class="flow-box orange" style="min-width: 380px;">
+        <div class="title">Adaptive Sigmoid Feedback Gate</div>
+        <div class="shape">fb = Linear(512->512) + LayerNorm + GELU<br>gate = Sigmoid(Linear(Concat[h1, fb]))<br>h_loop = gate * h1 + (1 - gate) * fb</div>
+        <div class="desc">Loops specialist knowledge back into screener space [B, 512]</div>
+      </div>
+    </div>
+    <div class="arrow-down">▼ Final Forcing Decision</div>
+    <div class="flow-row">
+      <div class="flow-box green">
+        <div class="title">Final Forcing Classifier</div>
+        <div class="shape">Linear(512->256) -> GELU -> Linear(256->128) -> GELU -> Linear(128->4)</div>
+        <div class="desc">Forces tile into one of the 4 classes | Multi-Task Loss (Focal + Auxiliary Screener)</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 4: FAILURE AUDIT -->
+<h2>4. Phenotype Failure Analysis: High Performers vs. Low Performers</h2>
+<div class="grid-2">
+  <div class="card">
+    <h3 style="color: #34d399;">High Performing Classes (>88% F1)</h3>
+    <ul style="padding-left: 20px; line-height: 1.8;">
+      <li><strong>cohesive (90.4% F1)</strong>: Huge solid sheets of malignant cells. Very dense, uniform circularity. ViT CLS tokens detect solid glandular patterns with 95.5% recall.</li>
+      <li><strong>no_feature (88.2% F1)</strong>: Fibrous acellular stroma, keratin pearls, necrosis. Low nuclei count and high pink stroma fraction make it clean to separate.</li>
+      <li><strong>dispersive (84.9% F1)</strong>: Solitary detached cells. In Model 5, the recurrent loop achieved <strong>100% precision</strong> (zero false alarms).</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3 style="color: #f87171;">The Challenging Class: noncohesive (65–69% F1)</h3>
+    <ul style="padding-left: 20px; line-height: 1.8;">
+      <li><strong>The Intermediate Cluster Dilemma</strong>: Noncohesive cells travel in small detached groups (15 to 50 cells).</li>
+      <li><strong>Why Spatial Pooling Fails It</strong>: All models so far used <code>mean()</code> and <code>max()</code> pooling over the 16 crops. This averages out the empty space between clusters, making 15-cell clusters look like a large solid cohesive sheet!</li>
+      <li><strong>The Test Set Confusion</strong>: Out of 29 noncohesive test tiles, <strong>12 were mistakenly predicted as cohesive</strong>.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- SECTION 5: MODEL 6 BLUEPRINT -->
+<h2>5. Architectural Blueprint for Model 6: MS-XNet</h2>
+<div class="card">
+  <p>To surpass Model 4's 83.2% F1 and resolve the noncohesive bottleneck while keeping Model 5's 100% dispersive precision:</p>
+
+  <div class="flow-container" style="margin-top: 20px;">
+    <div class="flow-row">
+      <div class="flow-box blue">
+        <div class="title">1. Cross-Attention Pooling</div>
+        <div class="desc">Replaces mean/max pooling with Multi-Head Attention (H=8). Uses TileCNN global view as Query and Phikon crops as Keys/Values to explicitly measure cluster distances.</div>
+      </div>
+      <div class="flow-box purple">
+        <div class="title">2. Model 5 Recurrent Feedback Gate</div>
+        <div class="desc">Preserves the Sigmoid recurrent loop that guaranteed 100% precision on solitary dispersive cells.</div>
+      </div>
+      <div class="flow-box orange">
+        <div class="title">3. Morphological Injection</div>
+        <div class="desc">Injects <code>mean_nn_distance</code> and <code>nuclei_density</code> into the final head, giving direct physical cluster separation signal.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>

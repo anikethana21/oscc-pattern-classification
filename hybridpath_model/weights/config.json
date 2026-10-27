@@ -1,0 +1,22 @@
+{
+  "model_name": "HybridPath",
+  "version": "1.0",
+  "num_classes": 4,
+  "classes": [
+    "cohesive",
+    "dispersive",
+    "no_feature",
+    "noncohesive"
+  ],
+  "backbone": "owkin/phikon",
+  "frozen_blocks": "0-8",
+  "unfrozen_blocks": "9-11",
+  "cnn_input": 256,
+  "fused_dim": 512,
+  "activation": "GELU",
+  "loss": "FocalLoss(gamma=2.0)",
+  "precision": "AMP FP16",
+  "best_val_macro_f1": 0.8003299021108261,
+  "total_params": 176607527,
+  "trainable_params": 26275367
+}

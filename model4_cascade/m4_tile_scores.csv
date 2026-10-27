@@ -1,0 +1,268 @@
+tile_id,tile_path,true_label,pred_class,confidence,decided_by,is_correct,s1_prob_cohesive,s1_prob_no_feature,s2_prob_cohesive,s2_prob_dispersive,s2_prob_no_feature,s2_prob_noncohesive
+1169_H_320_24_OSCC_(Bareilly)_x22528_y71680,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x22528_y71680.png,cohesive,cohesive,0.699219,Stage2 (Specialist),True,0.3601,0.6401,0.6992,0.0,0.3008,0.0001
+2048px_x47104_y18432,D:\Project\40x-20261024T155519Z-1-003\40x\noncohesive\2048px_x47104_y18432.png,noncohesive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0,0.9351,0.0031,0.0,0.0618
+1169_H_320_24_OSCC_(Bareilly)_x30720_y22528,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x30720_y22528.png,cohesive,cohesive,0.999512,Stage1 (cohesive),True,0.9995,0.0005,0.8872,0.0005,0.1121,0.0003
+2048px_x40960_y34816,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive (1)\2048px_x40960_y34816.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9561,0.032,0.0083,0.0037
+2048px_x120832_y51200,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive (1)\2048px_x120832_y51200.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9937,0.0031,0.0013,0.0019
+2048px_x104448_y53248,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\2048px_x104448_y53248.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9561,0.0009,0.0001,0.0428
+2048px_x43008_y51200,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\2048px_x43008_y51200.png,cohesive,cohesive,0.988281,Stage1 (cohesive),True,0.9883,0.0117,0.9678,0.0003,0.0317,0.0001
+2048px_x12288_y24576,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x12288_y24576.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9883,0.0006,0.0078,0.0035
+2048px_x53248_y57344,D:\Project\40x-20261024T155519Z-1-001\40x\no_feature\2048px_x53248_y57344.png,no_feature,no_feature,0.984863,Stage1 (no_feature),True,0.015,0.9849,0.3025,0.0,0.6978,0.0
+2048px_x63488_y49152 (1),D:\Project\40x-20261024T155519Z-1-002\40x\cohesive (1)\2048px_x63488_y49152 (1).png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9941,0.0035,0.0018,0.0007
+2048px_x61440_y53248,D:\Project\40x-20261024T155519Z-1-002\40x\dispersive\2048px_x61440_y53248.png,dispersive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0,0.2367,0.5537,0.0041,0.2057
+2048px_x10240_y18432 (1),D:\Project\40x-20261024T155519Z-1-004\40x\no_feature (1)\2048px_x10240_y18432 (1).png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0,1.0,0.0187,0.0006,0.981,0.0
+2048px_x34816_y18432,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\2048px_x34816_y18432.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9922,0.0017,0.0,0.0059
+2048px_x24576_y30720,D:\Project\40x-20261024T155519Z-1-002\40x\noncohesive (1)\2048px_x24576_y30720.png,noncohesive,noncohesive,1.0,Stage2 (Specialist),True,0.5215,0.4783,0.0,0.0001,0.0,1.0
+2048px_x90112_y18432,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\2048px_x90112_y18432.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9863,0.0019,0.0,0.0119
+2048px_x55296_y18432,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\2048px_x55296_y18432.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9468,0.0411,0.0002,0.0119
+1169_H_320_24_OSCC_(Bareilly)_x94208_y108544,D:\Project\40x-20261024T155519Z-1-001\40x\dispersive\1169_H_320_24_OSCC_(Bareilly)_x94208_y108544.png,dispersive,no_feature,0.879395,Stage1 (no_feature),False,0.1207,0.8794,0.0939,0.4324,0.0496,0.4241
+2048px_x25088_y81920,D:\Project\40x-20261024T155519Z-1-002\40x\no_feature\2048px_x25088_y81920.png,no_feature,no_feature,0.999023,Stage1 (no_feature),True,0.001,0.999,0.0625,0.0005,0.937,0.0002
+2048px_x100352_y63488,D:\Project\40x-20261024T155519Z-1-002\40x\dispersive (1)\2048px_x100352_y63488.png,dispersive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0,0.0275,0.9707,0.0,0.0016
+1169_H_320_24_OSCC_(Bareilly)_x75776_y120832,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x75776_y120832.png,cohesive,cohesive,0.988281,Stage1 (cohesive),True,0.9883,0.0119,0.7803,0.0297,0.1399,0.0502
+2048px_x124928_y61440,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive (1)\2048px_x124928_y61440.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0002,0.9961,0.0003,0.0035,0.0004
+2048px_x18432_y28672,D:\Project\40x-20261024T155519Z-1-003\40x\noncohesive (1)\2048px_x18432_y28672.png,noncohesive,noncohesive,1.0,Stage2 (Specialist),True,0.6934,0.3066,0.0,0.0,0.0,1.0
+2048px_x23040_y38912,D:\Project\40x-20261024T155519Z-1-005\40x\no_feature\2048px_x23040_y38912.png,no_feature,no_feature,0.999512,Stage1 (no_feature),True,0.0007,0.9995,0.1266,0.0,0.8735,0.0001
+2048px_x131072_y43008,D:\Project\40x-20261024T155519Z-1-002\40x\no_feature (1)\2048px_x131072_y43008.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0002,1.0,0.0359,0.0,0.9639,0.0
+2048px_x83968_y40960,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\2048px_x83968_y40960.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9985,0.0002,0.0001,0.0011
+2048px_x30720_y32768,D:\Project\40x-20261024T155519Z-1-001\40x\noncohesive (1)\2048px_x30720_y32768.png,noncohesive,noncohesive,0.999512,Stage2 (Specialist),True,0.6509,0.3491,0.0,0.0002,0.0,0.9995
+2048px_x49152_y20480,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive\2048px_x49152_y20480.png,cohesive,cohesive,0.989746,Stage1 (cohesive),True,0.9897,0.0101,0.9683,0.0021,0.029,0.0006
+2048px_x18432_y24576,D:\Project\40x-20261024T155519Z-1-001\40x\noncohesive (1)\2048px_x18432_y24576.png,noncohesive,cohesive,0.960938,Stage1 (cohesive),False,0.9609,0.0391,0.0,0.0,0.0,1.0
+2048px_x92160_y47104,D:\Project\40x-20261024T155519Z-1-001\40x\no_feature\2048px_x92160_y47104.png,no_feature,no_feature,0.999512,Stage1 (no_feature),True,0.0004,0.9995,0.0003,0.0,0.9995,0.0
+2048px_x41472_y110592,D:\Project\40x-20261024T155519Z-1-002\40x\no_feature\2048px_x41472_y110592.png,no_feature,cohesive,0.970703,Stage1 (cohesive),False,0.9707,0.0294,0.8374,0.0002,0.1614,0.0012
+1158_H-313_24_OSCC(Bareilly)_x106496_y8192,D:\Project\40x-20261024T155519Z-1-003\40x\noncohesive\1158_H-313_24_OSCC(Bareilly)_x106496_y8192.png,noncohesive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0,0.9438,0.01,0.0058,0.0406
+2048px_x75776_y10240,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\2048px_x75776_y10240.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.5952,0.2683,0.0043,0.1323
+2048px_x14336_y30720,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive\2048px_x14336_y30720.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0001,0.9971,0.0001,0.0025,0.0
+1158_H-313_24_OSCC(Bareilly)_x38912_y63488,D:\Project\40x-20261024T155519Z-1-003\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x38912_y63488.png,no_feature,no_feature,0.989746,Stage1 (no_feature),True,0.0102,0.9897,0.1307,0.0,0.8691,0.0
+2048px_x23040_y67584,D:\Project\40x-20261024T155519Z-1-004\40x\no_feature\2048px_x23040_y67584.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0,1.0,0.0445,0.0001,0.9551,0.0001
+2048px_x10240_y38912,D:\Project\40x-20261024T155519Z-1-004\40x\no_feature (1)\2048px_x10240_y38912.png,no_feature,no_feature,0.828613,Stage1 (no_feature),True,0.1714,0.8286,0.4883,0.0001,0.5117,0.0
+2048px_x36864_y10240,D:\Project\40x-20261024T155519Z-1-006\40x\cohesive\2048px_x36864_y10240.png,cohesive,cohesive,0.97998,Stage1 (cohesive),True,0.98,0.0198,0.7739,0.0008,0.2244,0.0006
+2048px_x27136_y20480,D:\Project\40x-20261024T155519Z-1-005\40x\no_feature\2048px_x27136_y20480.png,no_feature,no_feature,0.999512,Stage1 (no_feature),True,0.0007,0.9995,0.024,0.0,0.9761,0.0
+1169_H_320_24_OSCC_(Bareilly)_x32768_y73728,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x32768_y73728.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9849,0.0018,0.0026,0.0107
+2048px_x81920_y51200,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\2048px_x81920_y51200.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9829,0.0015,0.0,0.0154
+1158_H-313_24_OSCC(Bareilly)_x94208_y20480,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\1158_H-313_24_OSCC(Bareilly)_x94208_y20480.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.8047,0.0654,0.0114,0.1183
+2048px_x53248_y12288,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x53248_y12288.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0001,0.77,0.1167,0.007,0.1061
+2048px_x0_y40960,D:\Project\40x-20261024T155519Z-1-003\40x\no_feature (1)\2048px_x0_y40960.png,no_feature,no_feature,0.997559,Stage1 (no_feature),True,0.0026,0.9976,0.1545,0.0012,0.8438,0.0005
+2048px_x73728_y22528,D:\Project\40x-20261024T155519Z-1-004\40x\dispersive (1)\2048px_x73728_y22528.png,dispersive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0001,0.3435,0.6528,0.0,0.0036
+2048px_x20480_y43008,D:\Project\40x-20261024T155519Z-1-004\40x\noncohesive\2048px_x20480_y43008.png,noncohesive,cohesive,0.967285,Stage1 (cohesive),False,0.9673,0.0327,0.4785,0.3662,0.0183,0.1372
+2048px_x20992_y75776,D:\Project\40x-20261024T155519Z-1-002\40x\no_feature\2048px_x20992_y75776.png,no_feature,no_feature,0.992676,Stage1 (no_feature),True,0.0074,0.9927,0.0622,0.0,0.938,0.0
+2048px_x104448_y30720,D:\Project\40x-20261024T155519Z-1-001\40x\no_feature (1)\2048px_x104448_y30720.png,no_feature,no_feature,0.998535,Stage1 (no_feature),True,0.0013,0.9985,0.0869,0.0001,0.9131,0.0
+2048px_x32768_y26624,D:\Project\40x-20261024T155519Z-1-002\40x\noncohesive (1)\2048px_x32768_y26624.png,noncohesive,no_feature,0.794922,Stage1 (no_feature),False,0.205,0.7949,0.0,0.0,0.0,1.0
+1169_H_320_24_OSCC_(Bareilly)_x36864_y26624,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x36864_y26624.png,cohesive,cohesive,0.994141,Stage1 (cohesive),True,0.9941,0.0059,0.8691,0.0,0.1307,0.0
+2048px_x18432_y12288,D:\Project\40x-20261024T155519Z-1-001\40x\noncohesive (1)\2048px_x18432_y12288.png,noncohesive,noncohesive,1.0,Stage2 (Specialist),True,0.2505,0.7495,0.0,0.0,0.0,1.0
+1169_H_320_24_OSCC_(Bareilly)_x24576_y18432,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x24576_y18432.png,cohesive,cohesive,0.987305,Stage1 (cohesive),True,0.9873,0.0128,0.6577,0.0007,0.3413,0.0002
+1169_H_320_24_OSCC_(Bareilly)_x34816_y73728,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x34816_y73728.png,cohesive,cohesive,0.998047,Stage1 (cohesive),True,0.998,0.0018,0.9385,0.0068,0.0473,0.0072
+2048px_x18432_y18432,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive\2048px_x18432_y18432.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9951,0.0006,0.0,0.0045
+2048px_x73728_y51200,D:\Project\40x-20261024T155519Z-1-004\40x\dispersive\2048px_x73728_y51200.png,dispersive,cohesive,0.964355,Stage1 (cohesive),False,0.9644,0.0356,0.8262,0.0048,0.1674,0.0015
+1169_H_320_24_OSCC_(Bareilly)_x51200_y49152,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x51200_y49152.png,cohesive,cohesive,0.999512,Stage1 (cohesive),True,0.9995,0.0003,0.9878,0.0068,0.0048,0.0008
+2048px_x35328_y88064,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\2048px_x35328_y88064.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9863,0.0003,0.0125,0.0009
+2048px_x71680_y57344,D:\Project\40x-20261024T155519Z-1-003\40x\dispersive\2048px_x71680_y57344.png,dispersive,cohesive,0.99707,Stage1 (cohesive),False,0.9971,0.0029,0.0479,0.9209,0.0066,0.0246
+2048px_x61440_y28672,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x61440_y28672.png,cohesive,cohesive,0.885254,Stage1 (cohesive),True,0.8853,0.1147,0.8179,0.0021,0.179,0.0009
+2048px_x77824_y36864,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive\2048px_x77824_y36864.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.998,0.0002,0.0017,0.0003
+2048px_x96256_y51200,D:\Project\40x-20261024T155519Z-1-005\40x\noncohesive\2048px_x96256_y51200.png,noncohesive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0,0.7744,0.0006,0.0001,0.2249
+2048px_x69632_y53248,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive (1)\2048px_x69632_y53248.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0001,0.9814,0.0024,0.0156,0.0005
+2048px_x45568_y100352,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\2048px_x45568_y100352.png,cohesive,cohesive,0.977051,Stage1 (cohesive),True,0.9771,0.0231,0.6011,0.0007,0.3975,0.0005
+2048px_x65536_y53248 (1),D:\Project\40x-20261024T155519Z-1-004\40x\cohesive (1)\2048px_x65536_y53248 (1).png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9956,0.0026,0.0005,0.0014
+2048px_x57344_y61440,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive (1)\2048px_x57344_y61440.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9766,0.0192,0.0029,0.0016
+1169_H_320_24_OSCC_(Bareilly)_x24576_y57344,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x24576_y57344.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.999,0.0,0.0009,0.0
+2048px_x38912_y49152,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\2048px_x38912_y49152.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.8452,0.1278,0.0016,0.0251
+2048px_x47104_y28672,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\2048px_x47104_y28672.png,cohesive,cohesive,0.999512,Stage1 (cohesive),True,0.9995,0.0004,0.5615,0.4167,0.005,0.0166
+2048px_x77824_y20480,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x77824_y20480.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9941,0.0024,0.0001,0.0034
+1169_H_320_24_OSCC_(Bareilly)_x16384_y24576,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x16384_y24576.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0001,0.9478,0.017,0.0311,0.0042
+2048px_x75776_y45056,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\2048px_x75776_y45056.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9941,0.0016,0.0036,0.0005
+2048px_x29184_y98304,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\2048px_x29184_y98304.png,cohesive,cohesive,0.871582,Stage1 (cohesive),True,0.8716,0.1283,0.6763,0.0001,0.3232,0.0004
+1169_H_320_24_OSCC_(Bareilly)_x51200_y34816,D:\Project\40x-20261024T155519Z-1-004\40x\no_feature\1169_H_320_24_OSCC_(Bareilly)_x51200_y34816.png,no_feature,cohesive,0.785645,Stage2 (Specialist),False,0.7207,0.2793,0.7856,0.0054,0.2054,0.0037
+2048px_x49152_y26624 (1),D:\Project\40x-20261024T155519Z-1-005\40x\cohesive (1)\2048px_x49152_y26624 (1).png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9844,0.0134,0.0005,0.0016
+2048px_x86016_y51200,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\2048px_x86016_y51200.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9727,0.0004,0.0,0.0271
+1158_H-313_24_OSCC(Bareilly)_x100352_y10240,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\1158_H-313_24_OSCC(Bareilly)_x100352_y10240.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.7734,0.0535,0.0077,0.1653
+1158_H-313_24_OSCC(Bareilly)_x92160_y26624,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\1158_H-313_24_OSCC(Bareilly)_x92160_y26624.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0002,0.9653,0.0018,0.0318,0.0011
+2048px_x69632_y53248,D:\Project\40x-20261024T155519Z-1-004\40x\dispersive\2048px_x69632_y53248.png,dispersive,no_feature,0.976562,Stage1 (no_feature),False,0.0232,0.9766,0.0016,0.686,0.0005,0.3118
+2048px_x129024_y55296,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive (1)\2048px_x129024_y55296.png,cohesive,no_feature,0.999023,Stage1 (no_feature),False,0.001,0.999,0.151,0.0,0.8491,0.0
+1158_H-313_24_OSCC(Bareilly)_x81920_y16384,D:\Project\40x-20261024T155519Z-1-003\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x81920_y16384.png,no_feature,no_feature,0.617676,Stage2 (Specialist),True,0.5972,0.4028,0.3679,0.0092,0.6177,0.0053
+1169_H_320_24_OSCC_(Bareilly)_x71680_y36864,D:\Project\40x-20261024T155519Z-1-004\40x\no_feature\1169_H_320_24_OSCC_(Bareilly)_x71680_y36864.png,no_feature,no_feature,0.999512,Stage1 (no_feature),True,0.0003,0.9995,0.0676,0.0003,0.9321,0.0001
+1169_H_320_24_OSCC_(Bareilly)_x94208_y110592,D:\Project\40x-20261024T155519Z-1-001\40x\noncohesive\1169_H_320_24_OSCC_(Bareilly)_x94208_y110592.png,noncohesive,cohesive,0.459961,Stage2 (Specialist),False,0.3916,0.6084,0.46,0.1843,0.1777,0.1779
+1158_H-313_24_OSCC(Bareilly)_x22528_y34816,D:\Project\40x-20261024T155519Z-1-003\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x22528_y34816.png,no_feature,no_feature,0.999512,Stage1 (no_feature),True,0.0003,0.9995,0.0379,0.0,0.9619,0.0
+2048px_x40960_y14336,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\2048px_x40960_y14336.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9985,0.0003,0.0,0.0012
+2048px_x77824_y28672,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\2048px_x77824_y28672.png,cohesive,cohesive,0.999512,Stage1 (cohesive),True,0.9995,0.0003,0.9741,0.0,0.026,0.0
+2048px_x45056_y26624,D:\Project\40x-20261024T155519Z-1-005\40x\dispersive (1)\2048px_x45056_y26624.png,dispersive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0,0.9233,0.057,0.002,0.0176
+2048px_x34816_y12288,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\2048px_x34816_y12288.png,cohesive,cohesive,0.996094,Stage1 (cohesive),True,0.9961,0.004,0.9019,0.0026,0.0936,0.0021
+2048px_x63488_y40960,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive (1)\2048px_x63488_y40960.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9956,0.0018,0.0017,0.0007
+1158_H-313_24_OSCC(Bareilly)_x124928_y51200,D:\Project\40x-20261024T155519Z-1-003\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x124928_y51200.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0001,1.0,0.0113,0.0,0.9888,0.0
+2048px_x18432_y47104,D:\Project\40x-20261024T155519Z-1-002\40x\dispersive\2048px_x18432_y47104.png,dispersive,cohesive,0.998047,Stage1 (cohesive),False,0.998,0.002,0.323,0.3472,0.0104,0.3193
+2048px_x75776_y14336,D:\Project\40x-20261024T155519Z-1-002\40x\noncohesive\2048px_x75776_y14336.png,noncohesive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0,0.7456,0.001,0.0001,0.2532
+1158_H-313_24_OSCC(Bareilly)_x47104_y34816,D:\Project\40x-20261024T155519Z-1-001\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x47104_y34816.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0001,1.0,0.0129,0.0,0.9873,0.0
+2048px_x102400_y61440,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive (1)\2048px_x102400_y61440.png,cohesive,cohesive,0.999023,Stage1 (cohesive),True,0.999,0.0009,0.9688,0.0145,0.0146,0.0021
+2048px_x124928_y53248,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive (1)\2048px_x124928_y53248.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9961,0.002,0.0008,0.001
+1158_H-313_24_OSCC(Bareilly)_x102400_y16384,D:\Project\40x-20261024T155519Z-1-004\40x\noncohesive\1158_H-313_24_OSCC(Bareilly)_x102400_y16384.png,noncohesive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0,0.8882,0.0043,0.0002,0.1075
+2048px_x102400_y57344,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\2048px_x102400_y57344.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9956,0.0006,0.0,0.0037
+2048px_x110592_y57344,D:\Project\40x-20261024T155519Z-1-001\40x\dispersive (1)\2048px_x110592_y57344.png,dispersive,cohesive,0.998535,Stage1 (cohesive),False,0.9985,0.0016,0.0008,0.999,0.0,0.0002
+2048px_x35328_y92160,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\2048px_x35328_y92160.png,cohesive,cohesive,0.999512,Stage1 (cohesive),True,0.9995,0.0003,0.8931,0.0003,0.1064,0.0003
+2048px_x14336_y20480,D:\Project\40x-20261024T155519Z-1-004\40x\no_feature\2048px_x14336_y20480.png,no_feature,no_feature,0.999512,Stage1 (no_feature),True,0.0006,0.9995,0.002,0.0,0.998,0.0
+1169_H_320_24_OSCC_(Bareilly)_x55296_y67584,D:\Project\40x-20261024T155519Z-1-002\40x\no_feature\1169_H_320_24_OSCC_(Bareilly)_x55296_y67584.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0002,1.0,0.0909,0.0,0.9092,0.0
+2048px_x124928_y16384,D:\Project\40x-20261024T155519Z-1-004\40x\no_feature (1)\2048px_x124928_y16384.png,no_feature,no_feature,0.999512,Stage1 (no_feature),True,0.0004,0.9995,0.0471,0.0,0.9531,0.0
+1169_H_320_24_OSCC_(Bareilly)_x45056_y38912,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x45056_y38912.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9976,0.0002,0.0001,0.0022
+2048px_x47616_y110592,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive\2048px_x47616_y110592.png,cohesive,cohesive,0.640625,Stage2 (Specialist),True,0.5649,0.4348,0.6406,0.0001,0.3594,0.0001
+2048px_x71680_y20480,D:\Project\40x-20261024T155519Z-1-001\40x\dispersive\2048px_x71680_y20480.png,dispersive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0,0.9844,0.008,0.0061,0.0013
+2048px_x73728_y20480,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\2048px_x73728_y20480.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.998,0.0001,0.0016,0.0001
+1158_H-313_24_OSCC(Bareilly)_x49152_y73728,D:\Project\40x-20261024T155519Z-1-001\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x49152_y73728.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0,1.0,0.012,0.0,0.9883,0.0
+2048px_x24576_y8192,D:\Project\40x-20261024T155519Z-1-006\40x\cohesive\2048px_x24576_y8192.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9951,0.0006,0.001,0.0036
+2048px_x108544_y40960,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive\2048px_x108544_y40960.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9678,0.0003,0.0,0.0319
+2048px_x69632_y32768,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive (1)\2048px_x69632_y32768.png,cohesive,cohesive,0.991699,Stage1 (cohesive),True,0.9917,0.0084,0.9556,0.001,0.0431,0.0003
+1169_H_320_24_OSCC_(Bareilly)_x45056_y30720,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x45056_y30720.png,cohesive,cohesive,0.999512,Stage1 (cohesive),True,0.9995,0.0004,0.916,0.0038,0.0781,0.002
+2048px_x51200_y32768,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive (1)\2048px_x51200_y32768.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9951,0.003,0.0014,0.0003
+1169_H_320_24_OSCC_(Bareilly)_x0_y8192,D:\Project\40x-20261024T155519Z-1-004\40x\no_feature\1169_H_320_24_OSCC_(Bareilly)_x0_y8192.png,no_feature,cohesive,0.92334,Stage1 (cohesive),False,0.9233,0.0766,0.9053,0.0,0.0947,0.0
+2048px_x100352_y40960 (1),D:\Project\40x-20261024T155519Z-1-003\40x\cohesive (1)\2048px_x100352_y40960 (1).png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9951,0.0021,0.0,0.0029
+2048px_x28672_y43008,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive\2048px_x28672_y43008.png,cohesive,cohesive,0.999512,Stage1 (cohesive),True,0.9995,0.0006,0.9854,0.0007,0.0123,0.0017
+2048px_x47104_y12288,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\2048px_x47104_y12288.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.8906,0.0002,0.0,0.1091
+2048px_x30720_y49152,D:\Project\40x-20261024T155519Z-1-003\40x\dispersive\2048px_x30720_y49152.png,dispersive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0,0.0137,0.8984,0.0012,0.0867
+1158_H-313_24_OSCC(Bareilly)_x69632_y65536,D:\Project\40x-20261024T155519Z-1-001\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x69632_y65536.png,no_feature,cohesive,0.998047,Stage1 (cohesive),False,0.998,0.0018,0.9023,0.0001,0.0975,0.0002
+2048px_x94208_y55296,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\2048px_x94208_y55296.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9946,0.0032,0.0001,0.0019
+2048px_x120832_y36864,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\2048px_x120832_y36864.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9658,0.007,0.0024,0.0249
+2048px_x100352_y47104,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x100352_y47104.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9941,0.0001,0.0,0.0056
+1169_H_320_24_OSCC_(Bareilly)_x69632_y20480,D:\Project\40x-20261024T155519Z-1-005\40x\noncohesive\1169_H_320_24_OSCC_(Bareilly)_x69632_y20480.png,noncohesive,no_feature,0.900879,Stage1 (no_feature),False,0.0992,0.9009,0.4106,0.222,0.1207,0.2467
+2048px_x118784_y55296,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive (1)\2048px_x118784_y55296.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9404,0.013,0.0005,0.046
+2048px_x90112_y45056,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x90112_y45056.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.8677,0.0028,0.0015,0.1281
+2048px_x45056_y10240,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x45056_y10240.png,cohesive,cohesive,0.998047,Stage1 (cohesive),True,0.998,0.0019,0.9531,0.0087,0.0237,0.0143
+1169_H_320_24_OSCC_(Bareilly)_x49152_y53248,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x49152_y53248.png,cohesive,cohesive,0.999023,Stage1 (cohesive),True,0.999,0.0009,0.9937,0.0012,0.005,0.0003
+1169_H_320_24_OSCC_(Bareilly)_x0_y47104,D:\Project\40x-20261024T155519Z-1-005\40x\no_feature\1169_H_320_24_OSCC_(Bareilly)_x0_y47104.png,no_feature,cohesive,0.824219,Stage2 (Specialist),False,0.6528,0.3474,0.8242,0.0,0.1755,0.0
+2048px_x112640_y36864,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x112640_y36864.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9609,0.0007,0.0001,0.0384
+2048px_x86016_y12288,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\2048px_x86016_y12288.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9434,0.0001,0.0,0.0568
+2048px_x30720_y45056,D:\Project\40x-20261024T155519Z-1-001\40x\dispersive\2048px_x30720_y45056.png,dispersive,cohesive,0.984863,Stage1 (cohesive),False,0.9849,0.0152,0.8613,0.1205,0.0113,0.0069
+1158_H-313_24_OSCC(Bareilly)_x67584_y16384,D:\Project\40x-20261024T155519Z-1-001\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x67584_y16384.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0001,1.0,0.0291,0.0,0.9707,0.0
+1158_H-313_24_OSCC(Bareilly)_x53248_y57344,D:\Project\40x-20261024T155519Z-1-001\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x53248_y57344.png,no_feature,no_feature,0.99707,Stage1 (no_feature),True,0.0031,0.9971,0.1451,0.0,0.855,0.0
+2048px_x69632_y6144,D:\Project\40x-20261024T155519Z-1-006\40x\cohesive\2048px_x69632_y6144.png,cohesive,cohesive,0.991699,Stage1 (cohesive),True,0.9917,0.0085,0.9517,0.0036,0.039,0.0058
+1169_H_320_24_OSCC_(Bareilly)_x79872_y43008,D:\Project\40x-20261024T155519Z-1-001\40x\no_feature\1169_H_320_24_OSCC_(Bareilly)_x79872_y43008.png,no_feature,no_feature,0.998535,Stage1 (no_feature),True,0.0015,0.9985,0.2048,0.0035,0.7915,0.0004
+2048px_x124928_y65536,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive (1)\2048px_x124928_y65536.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.8799,0.1129,0.0016,0.0056
+2048px_x43008_y47104,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\2048px_x43008_y47104.png,cohesive,no_feature,0.807129,Stage1 (no_feature),False,0.1931,0.8071,0.6001,0.0003,0.3997,0.0001
+2048px_x47616_y96256,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x47616_y96256.png,cohesive,cohesive,0.770996,Stage1 (cohesive),True,0.771,0.2291,0.4307,0.0033,0.564,0.0019
+1158_H-313_24_OSCC(Bareilly)_x86016_y8192,D:\Project\40x-20261024T155519Z-1-003\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x86016_y8192.png,no_feature,no_feature,0.956055,Stage1 (no_feature),True,0.044,0.9561,0.1753,0.0003,0.8232,0.0012
+2048px_x20480_y30720,D:\Project\40x-20261024T155519Z-1-002\40x\noncohesive (1)\2048px_x20480_y30720.png,noncohesive,noncohesive,1.0,Stage2 (Specialist),True,0.5815,0.4185,0.0,0.0,0.0,1.0
+2048px_x14336_y43008,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x14336_y43008.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9985,0.0001,0.0014,0.0
+2048px_x20480_y10240,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\2048px_x20480_y10240.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9951,0.0022,0.0001,0.0027
+2048px_x45568_y86016,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\2048px_x45568_y86016.png,cohesive,cohesive,0.996582,Stage1 (cohesive),True,0.9966,0.0035,0.8003,0.0002,0.1985,0.0008
+2048px_x67584_y53248,D:\Project\40x-20261024T155519Z-1-002\40x\no_feature\2048px_x67584_y53248.png,no_feature,no_feature,0.953613,Stage1 (no_feature),True,0.0463,0.9536,0.3711,0.0,0.6289,0.0001
+1158_H-313_24_OSCC(Bareilly)_x57344_y12288,D:\Project\40x-20261024T155519Z-1-003\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x57344_y12288.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0001,1.0,0.0349,0.0,0.9653,0.0
+2048px_x92160_y45056,D:\Project\40x-20261024T155519Z-1-002\40x\no_feature\2048px_x92160_y45056.png,no_feature,no_feature,0.999512,Stage1 (no_feature),True,0.0004,0.9995,0.0004,0.0,0.9995,0.0
+1158_H-313_24_OSCC(Bareilly)_x63488_y43008,D:\Project\40x-20261024T155519Z-1-005\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x63488_y43008.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0002,1.0,0.0273,0.0,0.9727,0.0
+1158_H-313_24_OSCC(Bareilly)_x34816_y38912,D:\Project\40x-20261024T155519Z-1-003\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x34816_y38912.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0001,1.0,0.0145,0.0,0.9854,0.0
+2048px_x102400_y57344,D:\Project\40x-20261024T155519Z-1-002\40x\dispersive (1)\2048px_x102400_y57344.png,dispersive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0,0.0452,0.9546,0.0,0.0004
+2048px_x122880_y49152,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive (1)\2048px_x122880_y49152.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0001,0.9932,0.0017,0.0044,0.0007
+1169_H_320_24_OSCC_(Bareilly)_x86016_y116736,D:\Project\40x-20261024T155519Z-1-004\40x\no_feature\1169_H_320_24_OSCC_(Bareilly)_x86016_y116736.png,no_feature,cohesive,0.990234,Stage1 (cohesive),False,0.9902,0.0097,0.3174,0.3689,0.023,0.2905
+2048px_x71680_y16384,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\2048px_x71680_y16384.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9883,0.0022,0.0,0.0094
+2048px_x22528_y16384,D:\Project\40x-20261024T155519Z-1-002\40x\noncohesive (1)\2048px_x22528_y16384.png,noncohesive,no_feature,0.756348,Stage1 (no_feature),False,0.2438,0.7563,0.0,0.0,0.0,1.0
+1169_H_320_24_OSCC_(Bareilly)_x38912_y40960,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x38912_y40960.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.999,0.0001,0.0007,0.0002
+1169_H_320_24_OSCC_(Bareilly)_x102400_y126976,D:\Project\40x-20261024T155519Z-1-002\40x\no_feature\1169_H_320_24_OSCC_(Bareilly)_x102400_y126976.png,no_feature,no_feature,0.983398,Stage1 (no_feature),True,0.0166,0.9834,0.2289,0.0001,0.771,0.0001
+1158_H-313_24_OSCC(Bareilly)_x92160_y18432,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\1158_H-313_24_OSCC(Bareilly)_x92160_y18432.png,cohesive,cohesive,0.999512,Stage1 (cohesive),True,0.9995,0.0006,0.6685,0.0561,0.0139,0.2612
+2048px_x20480_y45056 (1),D:\Project\40x-20261024T155519Z-1-001\40x\cohesive (1)\2048px_x20480_y45056 (1).png,cohesive,no_feature,0.870605,Stage1 (no_feature),False,0.1294,0.8706,0.2087,0.0001,0.791,0.0001
+2048px_x10240_y6144,D:\Project\40x-20261024T155519Z-1-001\40x\no_feature (1)\2048px_x10240_y6144.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0,1.0,0.009,0.0,0.9912,0.0
+2048px_x49664_y102400,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\2048px_x49664_y102400.png,cohesive,cohesive,0.935547,Stage1 (cohesive),True,0.9355,0.0644,0.729,0.0003,0.2708,0.0002
+2048px_x79872_y16384,D:\Project\40x-20261024T155519Z-1-003\40x\noncohesive\2048px_x79872_y16384.png,noncohesive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0,0.8159,0.0226,0.0007,0.1608
+1169_H_320_24_OSCC_(Bareilly)_x10240_y30720,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x10240_y30720.png,cohesive,cohesive,0.955566,Stage1 (cohesive),True,0.9556,0.0444,0.9443,0.0004,0.0547,0.0008
+2048px_x65536_y43008,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x65536_y43008.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9941,0.0051,0.0002,0.0006
+2048px_x108544_y43008,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x108544_y43008.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.98,0.0001,0.0,0.0198
+1158_H-313_24_OSCC(Bareilly)_x53248_y16384,D:\Project\40x-20261024T155519Z-1-004\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x53248_y16384.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0001,1.0,0.0276,0.0,0.9727,0.0
+1169_H_320_24_OSCC_(Bareilly)_x49152_y67584,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x49152_y67584.png,cohesive,no_feature,0.918945,Stage1 (no_feature),False,0.0812,0.9189,0.2852,0.0119,0.6865,0.0163
+2048px_x53248_y45056,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive\2048px_x53248_y45056.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0002,0.9927,0.0036,0.001,0.0028
+2048px_x73728_y26624,D:\Project\40x-20261024T155519Z-1-001\40x\dispersive (1)\2048px_x73728_y26624.png,dispersive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0,0.1447,0.8491,0.0,0.0061
+1169_H_320_24_OSCC_(Bareilly)_x26624_y22528,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x26624_y22528.png,cohesive,cohesive,0.994141,Stage1 (cohesive),True,0.9941,0.0059,0.8501,0.0001,0.1498,0.0001
+2048px_x45568_y88064,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\2048px_x45568_y88064.png,cohesive,cohesive,0.937012,Stage1 (cohesive),True,0.937,0.0628,0.7529,0.0007,0.246,0.0003
+2048px_x104448_y36864,D:\Project\40x-20261024T155519Z-1-002\40x\no_feature (1)\2048px_x104448_y36864.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0,1.0,0.001,0.0,0.999,0.0
+2048px_x47104_y47104,D:\Project\40x-20261024T155519Z-1-004\40x\noncohesive\2048px_x47104_y47104.png,noncohesive,cohesive,0.810059,Stage1 (cohesive),False,0.8101,0.1899,0.9004,0.0013,0.0981,0.0004
+1158_H-313_24_OSCC(Bareilly)_x83968_y20480,D:\Project\40x-20261024T155519Z-1-002\40x\noncohesive\1158_H-313_24_OSCC(Bareilly)_x83968_y20480.png,noncohesive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0,0.8799,0.0303,0.0014,0.0883
+1158_H-313_24_OSCC(Bareilly)_x86016_y28672,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\1158_H-313_24_OSCC(Bareilly)_x86016_y28672.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9902,0.0043,0.0018,0.0037
+2048px_x112640_y40960,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\2048px_x112640_y40960.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9902,0.0079,0.0,0.0019
+1158_H-313_24_OSCC(Bareilly)_x83968_y26624,D:\Project\40x-20261024T155519Z-1-004\40x\noncohesive\1158_H-313_24_OSCC(Bareilly)_x83968_y26624.png,noncohesive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0,0.9868,0.0032,0.0013,0.0085
+1169_H_320_24_OSCC_(Bareilly)_x120832_y110592,D:\Project\40x-20261024T155519Z-1-004\40x\no_feature\1169_H_320_24_OSCC_(Bareilly)_x120832_y110592.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0001,1.0,0.0531,0.0001,0.9468,0.0001
+2048px_x106496_y43008,D:\Project\40x-20261024T155519Z-1-003\40x\no_feature (1)\2048px_x106496_y43008.png,no_feature,no_feature,0.998535,Stage1 (no_feature),True,0.0014,0.9985,0.104,0.0007,0.895,0.0001
+2048px_x67584_y53248,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive (1)\2048px_x67584_y53248.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9902,0.0061,0.0011,0.0023
+2048px_x12288_y28672,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\2048px_x12288_y28672.png,cohesive,cohesive,0.995117,Stage1 (cohesive),True,0.9951,0.005,0.8901,0.0005,0.1086,0.0005
+2048px_x32768_y16384 (1),D:\Project\40x-20261024T155519Z-1-002\40x\cohesive (1)\2048px_x32768_y16384 (1).png,cohesive,cohesive,0.999512,Stage1 (cohesive),True,0.9995,0.0002,0.978,0.0035,0.0182,0.0001
+1158_H-313_24_OSCC(Bareilly)_x61440_y73728,D:\Project\40x-20261024T155519Z-1-001\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x61440_y73728.png,no_feature,no_feature,0.999512,Stage1 (no_feature),True,0.0007,0.9995,0.0338,0.0,0.9663,0.0
+2048px_x45568_y104448,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x45568_y104448.png,cohesive,cohesive,0.887207,Stage1 (cohesive),True,0.8872,0.1127,0.6162,0.0003,0.3833,0.0002
+2048px_x110592_y34816,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\2048px_x110592_y34816.png,cohesive,cohesive,0.962402,Stage1 (cohesive),True,0.9624,0.0378,0.8877,0.0045,0.1065,0.0015
+1169_H_320_24_OSCC_(Bareilly)_x67584_y36864,D:\Project\40x-20261024T155519Z-1-002\40x\no_feature\1169_H_320_24_OSCC_(Bareilly)_x67584_y36864.png,no_feature,no_feature,0.998535,Stage1 (no_feature),True,0.0015,0.9985,0.1592,0.0,0.8408,0.0
+2048px_x122880_y45056,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive (1)\2048px_x122880_y45056.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0001,0.9775,0.0113,0.0044,0.0069
+1158_H-313_24_OSCC(Bareilly)_x47104_y6144,D:\Project\40x-20261024T155519Z-1-002\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x47104_y6144.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0002,1.0,0.0345,0.0,0.9653,0.0
+1158_H-313_24_OSCC(Bareilly)_x124928_y28672,D:\Project\40x-20261024T155519Z-1-003\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x124928_y28672.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0002,1.0,0.0354,0.0,0.9644,0.0
+1158_H-313_24_OSCC(Bareilly)_x81920_y20480,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\1158_H-313_24_OSCC(Bareilly)_x81920_y20480.png,cohesive,cohesive,0.999023,Stage1 (cohesive),True,0.999,0.0012,0.4858,0.0864,0.0231,0.4045
+1169_H_320_24_OSCC_(Bareilly)_x16384_y43008,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x16384_y43008.png,cohesive,cohesive,0.976562,Stage1 (cohesive),True,0.9766,0.0235,0.7251,0.0007,0.2737,0.0002
+2048px_x102400_y16384,D:\Project\40x-20261024T155519Z-1-001\40x\no_feature (1)\2048px_x102400_y16384.png,no_feature,no_feature,0.972168,Stage1 (no_feature),True,0.028,0.9722,0.17,0.0012,0.8276,0.0012
+1158_H-313_24_OSCC(Bareilly)_x53248_y55296,D:\Project\40x-20261024T155519Z-1-004\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x53248_y55296.png,no_feature,no_feature,0.999512,Stage1 (no_feature),True,0.0003,0.9995,0.0612,0.0,0.939,0.0
+2048px_x106496_y55296,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\2048px_x106496_y55296.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9893,0.0014,0.0,0.0094
+1169_H_320_24_OSCC_(Bareilly)_x59392_y57344,D:\Project\40x-20261024T155519Z-1-001\40x\no_feature\1169_H_320_24_OSCC_(Bareilly)_x59392_y57344.png,no_feature,no_feature,0.986328,Stage1 (no_feature),True,0.0139,0.9863,0.2712,0.0,0.7285,0.0
+2048px_x26624_y30720,D:\Project\40x-20261024T155519Z-1-001\40x\noncohesive (1)\2048px_x26624_y30720.png,noncohesive,noncohesive,1.0,Stage2 (Specialist),True,0.7446,0.2556,0.0,0.0,0.0,1.0
+2048px_x18944_y86016,D:\Project\40x-20261024T155519Z-1-005\40x\no_feature\2048px_x18944_y86016.png,no_feature,no_feature,0.995605,Stage1 (no_feature),True,0.0042,0.9956,0.1434,0.0008,0.8545,0.001
+2048px_x18432_y28672,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive\2048px_x18432_y28672.png,cohesive,cohesive,0.898926,Stage1 (cohesive),True,0.8989,0.1013,0.6309,0.0014,0.3657,0.0019
+1169_H_320_24_OSCC_(Bareilly)_x47104_y59392,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x47104_y59392.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0001,0.9624,0.0035,0.0327,0.0013
+2048px_x71680_y49152,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive\2048px_x71680_y49152.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9692,0.0247,0.0009,0.005
+2048px_x118784_y32768,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\2048px_x118784_y32768.png,cohesive,cohesive,0.505859,Stage2 (Specialist),True,0.645,0.3552,0.5059,0.0001,0.4941,0.0001
+2048px_x55296_y22528,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\2048px_x55296_y22528.png,cohesive,cohesive,0.999023,Stage1 (cohesive),True,0.999,0.001,0.9756,0.0168,0.0028,0.0048
+2048px_x16384_y45056,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\2048px_x16384_y45056.png,cohesive,cohesive,0.996094,Stage1 (cohesive),True,0.9961,0.0041,0.6787,0.1632,0.0769,0.0814
+1169_H_320_24_OSCC_(Bareilly)_x34816_y18432,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x34816_y18432.png,cohesive,cohesive,0.999023,Stage1 (cohesive),True,0.999,0.0009,0.9834,0.0002,0.0166,0.0001
+2048px_x16896_y94208,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\2048px_x16896_y94208.png,cohesive,no_feature,0.992676,Stage1 (no_feature),False,0.0075,0.9927,0.1548,0.0003,0.8438,0.0013
+2048px_x51200_y24576,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\2048px_x51200_y24576.png,cohesive,cohesive,0.999512,Stage1 (cohesive),True,0.9995,0.0005,0.981,0.0001,0.0191,0.0
+2048px_x100352_y73728,D:\Project\40x-20261024T155519Z-1-005\40x\no_feature (1)\2048px_x100352_y73728.png,no_feature,cohesive,0.657227,Stage2 (Specialist),False,0.7246,0.2754,0.6572,0.0007,0.3423,0.0001
+2048px_x38912_y61440,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x38912_y61440.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9053,0.012,0.0002,0.0826
+2048px_x86016_y32768,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\2048px_x86016_y32768.png,cohesive,cohesive,0.999512,Stage1 (cohesive),True,0.9995,0.0006,0.9805,0.0001,0.0194,0.0
+1158_H-313_24_OSCC(Bareilly)_x28672_y40960,D:\Project\40x-20261024T155519Z-1-002\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x28672_y40960.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0001,1.0,0.0348,0.0,0.9653,0.0
+2048px_x20480_y12288 (1),D:\Project\40x-20261024T155519Z-1-005\40x\noncohesive (1)\2048px_x20480_y12288 (1).png,noncohesive,noncohesive,1.0,Stage2 (Specialist),True,0.6543,0.3455,0.0,0.0,0.0,1.0
+2048px_x26624_y14336,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\2048px_x26624_y14336.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9956,0.0011,0.0007,0.0025
+2048px_x24576_y10240,D:\Project\40x-20261024T155519Z-1-006\40x\cohesive\2048px_x24576_y10240.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9692,0.0029,0.0002,0.0277
+1169_H_320_24_OSCC_(Bareilly)_x28672_y38912,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x28672_y38912.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9946,0.0005,0.0042,0.0006
+2048px_x32768_y20480,D:\Project\40x-20261024T155519Z-1-005\40x\noncohesive (1)\2048px_x32768_y20480.png,noncohesive,cohesive,0.959961,Stage1 (cohesive),False,0.96,0.0402,0.0,0.0001,0.0,1.0
+2048px_x73728_y45056,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\2048px_x73728_y45056.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9976,0.0017,0.0002,0.0004
+2048px_x88064_y47104,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive\2048px_x88064_y47104.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9634,0.0025,0.003,0.031
+2048px_x120832_y61440,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive (1)\2048px_x120832_y61440.png,cohesive,no_feature,0.998047,Stage1 (no_feature),False,0.0018,0.998,0.2798,0.0,0.7202,0.0
+2048px_x32768_y8192,D:\Project\40x-20261024T155519Z-1-006\40x\cohesive\2048px_x32768_y8192.png,cohesive,cohesive,0.59082,Stage2 (Specialist),True,0.6587,0.3416,0.5908,0.0003,0.4084,0.0002
+2048px_x102400_y12288,D:\Project\40x-20261024T155519Z-1-003\40x\no_feature (1)\2048px_x102400_y12288.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0001,1.0,0.0242,0.0,0.9756,0.0
+2048px_x86016_y30720,D:\Project\40x-20261024T155519Z-1-003\40x\dispersive (1)\2048px_x86016_y30720.png,dispersive,cohesive,0.999512,Stage1 (cohesive),False,0.9995,0.0003,0.1633,0.833,0.0,0.0036
+2048px_x12288_y53248,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x12288_y53248.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9961,0.002,0.0001,0.0016
+2048px_x47104_y26624,D:\Project\40x-20261024T155519Z-1-005\40x\no_feature\2048px_x47104_y26624.png,no_feature,no_feature,0.568848,Stage2 (Specialist),True,0.4521,0.5479,0.4294,0.0011,0.5688,0.0003
+1158_H-313_24_OSCC(Bareilly)_x108544_y10240,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\1158_H-313_24_OSCC(Bareilly)_x108544_y10240.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0001,0.2203,0.0483,0.0027,0.7285
+2048px_x77824_y45056,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\2048px_x77824_y45056.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9937,0.0033,0.0016,0.0015
+2048px_x61440_y45056 (1),D:\Project\40x-20261024T155519Z-1-004\40x\cohesive (1)\2048px_x61440_y45056 (1).png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9956,0.0012,0.0004,0.0031
+2048px_x20480_y28672,D:\Project\40x-20261024T155519Z-1-005\40x\noncohesive (1)\2048px_x20480_y28672.png,noncohesive,noncohesive,1.0,Stage2 (Specialist),True,0.7246,0.2751,0.0,0.0,0.0,1.0
+2048px_x32768_y16384,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\2048px_x32768_y16384.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9795,0.0101,0.0066,0.0038
+1158_H-313_24_OSCC(Bareilly)_x94208_y14336,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\1158_H-313_24_OSCC(Bareilly)_x94208_y14336.png,cohesive,cohesive,0.999512,Stage1 (cohesive),True,0.9995,0.0004,0.9331,0.0276,0.0253,0.0143
+2048px_x31232_y77824,D:\Project\40x-20261024T155519Z-1-003\40x\no_feature\2048px_x31232_y77824.png,no_feature,no_feature,0.999023,Stage1 (no_feature),True,0.0011,0.999,0.1011,0.0008,0.8975,0.0006
+2048px_x75776_y55296,D:\Project\40x-20261024T155519Z-1-004\40x\dispersive\2048px_x75776_y55296.png,dispersive,cohesive,0.865723,Stage1 (cohesive),False,0.8657,0.1345,0.0356,0.9038,0.0241,0.0364
+1169_H_320_24_OSCC_(Bareilly)_x28672_y22528,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x28672_y22528.png,cohesive,cohesive,0.999512,Stage1 (cohesive),True,0.9995,0.0005,0.9565,0.0,0.0435,0.0
+2048px_x120832_y40960 (1),D:\Project\40x-20261024T155519Z-1-004\40x\cohesive (1)\2048px_x120832_y40960 (1).png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9561,0.0141,0.0005,0.0294
+2048px_x106496_y36864,D:\Project\40x-20261024T155519Z-1-001\40x\no_feature (1)\2048px_x106496_y36864.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0,1.0,0.0004,0.0,0.9995,0.0
+2048px_x10240_y12288,D:\Project\40x-20261024T155519Z-1-006\40x\cohesive\2048px_x10240_y12288.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.7012,0.0007,0.0,0.2981
+1158_H-313_24_OSCC(Bareilly)_x114688_y43008,D:\Project\40x-20261024T155519Z-1-003\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x114688_y43008.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0002,1.0,0.0405,0.0,0.9595,0.0
+1169_H_320_24_OSCC_(Bareilly)_x28672_y32768,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x28672_y32768.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9844,0.0008,0.0137,0.0011
+2048px_x22528_y22528,D:\Project\40x-20261024T155519Z-1-004\40x\noncohesive (1)\2048px_x22528_y22528.png,noncohesive,no_feature,0.781738,Stage1 (no_feature),False,0.2181,0.7817,0.0,0.0,0.0,1.0
+2048px_x129024_y43008,D:\Project\40x-20261024T155519Z-1-005\40x\no_feature (1)\2048px_x129024_y43008.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0,1.0,0.0095,0.0,0.9907,0.0
+2048px_x79872_y14336,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive\2048px_x79872_y14336.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.5366,0.0011,0.0001,0.4624
+2048px_x108544_y20480,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive (1)\2048px_x108544_y20480.png,cohesive,no_feature,0.933594,Stage1 (no_feature),False,0.0665,0.9336,0.5669,0.0005,0.4321,0.0002
+2048px_x20480_y12288,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\2048px_x20480_y12288.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9204,0.006,0.0004,0.0731
+2048px_x67584_y61440,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive (1)\2048px_x67584_y61440.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0002,0.7847,0.0001,0.2153,0.0
+2048px_x106496_y49152,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x106496_y49152.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.8721,0.0001,0.0001,0.1276
+2048px_x30720_y34816,D:\Project\40x-20261024T155519Z-1-004\40x\noncohesive (1)\2048px_x30720_y34816.png,noncohesive,noncohesive,0.999023,Stage2 (Specialist),True,0.5239,0.4763,0.0004,0.0004,0.0,0.999
+1169_H_320_24_OSCC_(Bareilly)_x36864_y16384,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x36864_y16384.png,cohesive,cohesive,0.999512,Stage1 (cohesive),True,0.9995,0.0005,0.9595,0.0031,0.0359,0.0013
+2048px_x57344_y45056,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\2048px_x57344_y45056.png,cohesive,cohesive,0.999512,Stage1 (cohesive),True,0.9995,0.0003,0.9907,0.0032,0.005,0.0011
+1169_H_320_24_OSCC_(Bareilly)_x55296_y34816,D:\Project\40x-20261024T155519Z-1-004\40x\no_feature\1169_H_320_24_OSCC_(Bareilly)_x55296_y34816.png,no_feature,no_feature,0.950195,Stage1 (no_feature),True,0.05,0.9502,0.3723,0.0158,0.605,0.0069
+2048px_x102400_y38912 (1),D:\Project\40x-20261024T155519Z-1-003\40x\cohesive (1)\2048px_x102400_y38912 (1).png,cohesive,cohesive,0.955566,Stage1 (cohesive),True,0.9556,0.0443,0.8223,0.0033,0.1731,0.0014
+2048px_x67584_y45056,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive\2048px_x67584_y45056.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9917,0.0034,0.0044,0.0003
+2048px_x14336_y12288,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x14336_y12288.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9912,0.0013,0.0,0.0077
+2048px_x83968_y36864,D:\Project\40x-20261024T155519Z-1-005\40x\no_feature\2048px_x83968_y36864.png,no_feature,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0,0.9985,0.0001,0.0013,0.0001
+1158_H-313_24_OSCC(Bareilly)_x88064_y12288,D:\Project\40x-20261024T155519Z-1-002\40x\noncohesive\1158_H-313_24_OSCC(Bareilly)_x88064_y12288.png,noncohesive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0001,0.449,0.1716,0.0131,0.3662
+2048px_x79872_y55296,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x79872_y55296.png,cohesive,cohesive,0.962891,Stage1 (cohesive),True,0.9629,0.0371,0.6528,0.0022,0.342,0.0026
+2048px_x102400_y18432,D:\Project\40x-20261024T155519Z-1-005\40x\no_feature (1)\2048px_x102400_y18432.png,no_feature,no_feature,0.994629,Stage1 (no_feature),True,0.0052,0.9946,0.105,0.0001,0.895,0.0
+2048px_x122880_y38912,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive (1)\2048px_x122880_y38912.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9365,0.043,0.0004,0.0199
+1158_H-313_24_OSCC(Bareilly)_x102400_y40960,D:\Project\40x-20261024T155519Z-1-004\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x102400_y40960.png,no_feature,no_feature,0.999512,Stage1 (no_feature),True,0.0004,0.9995,0.0594,0.0,0.9404,0.0
+1158_H-313_24_OSCC(Bareilly)_x59392_y20480,D:\Project\40x-20261024T155519Z-1-003\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x59392_y20480.png,no_feature,no_feature,1.0,Stage1 (no_feature),True,0.0002,1.0,0.0415,0.0,0.9585,0.0
+2048px_x67584_y22528,D:\Project\40x-20261024T155519Z-1-004\40x\cohesive\2048px_x67584_y22528.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9956,0.0003,0.0038,0.0002
+2048px_x35328_y98304,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\2048px_x35328_y98304.png,cohesive,cohesive,0.769531,Stage2 (Specialist),True,0.689,0.3108,0.7695,0.0,0.2302,0.0
+2048px_x71680_y6144,D:\Project\40x-20261024T155519Z-1-006\40x\cohesive\2048px_x71680_y6144.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9985,0.0006,0.0001,0.0006
+2048px_x69632_y49152,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\2048px_x69632_y49152.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9536,0.0401,0.002,0.0041
+1158_H-313_24_OSCC(Bareilly)_x77824_y55296,D:\Project\40x-20261024T155519Z-1-001\40x\no_feature\1158_H-313_24_OSCC(Bareilly)_x77824_y55296.png,no_feature,cohesive,0.949219,Stage1 (cohesive),False,0.9492,0.0507,0.8335,0.0001,0.1661,0.0001
+2048px_x100352_y34816,D:\Project\40x-20261024T155519Z-1-005\40x\cohesive (1)\2048px_x100352_y34816.png,cohesive,cohesive,0.999512,Stage1 (cohesive),True,0.9995,0.0004,0.9814,0.0052,0.0115,0.0016
+2048px_x38912_y36864,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive (1)\2048px_x38912_y36864.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9092,0.0656,0.0027,0.0227
+1169_H_320_24_OSCC_(Bareilly)_x32768_y43008,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x32768_y43008.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9976,0.0001,0.0,0.0025
+1169_H_320_24_OSCC_(Bareilly)_x22528_y43008,D:\Project\40x-20261024T155519Z-1-002\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x22528_y43008.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0,0.9966,0.0005,0.0019,0.0008
+2048px_x14336_y34816,D:\Project\40x-20261024T155519Z-1-003\40x\cohesive\2048px_x14336_y34816.png,cohesive,cohesive,0.990234,Stage1 (cohesive),True,0.9902,0.01,0.771,0.0008,0.2275,0.0005
+1158_H-313_24_OSCC(Bareilly)_x108544_y12288,D:\Project\40x-20261024T155519Z-1-005\40x\noncohesive\1158_H-313_24_OSCC(Bareilly)_x108544_y12288.png,noncohesive,cohesive,0.996582,Stage1 (cohesive),False,0.9966,0.0036,0.053,0.0588,0.0049,0.8833
+1169_H_320_24_OSCC_(Bareilly)_x40960_y28672,D:\Project\40x-20261024T155519Z-1-001\40x\cohesive\1169_H_320_24_OSCC_(Bareilly)_x40960_y28672.png,cohesive,cohesive,1.0,Stage1 (cohesive),True,1.0,0.0002,0.9805,0.0021,0.0164,0.001
+2048px_x108544_y51200,D:\Project\40x-20261024T155519Z-1-005\40x\dispersive (1)\2048px_x108544_y51200.png,dispersive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0001,0.0585,0.9399,0.0,0.0013
+2048px_x22528_y51200,D:\Project\40x-20261024T155519Z-1-001\40x\noncohesive\2048px_x22528_y51200.png,noncohesive,cohesive,1.0,Stage1 (cohesive),False,1.0,0.0,0.0515,0.1777,0.0013,0.7695

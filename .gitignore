@@ -32,3 +32,8 @@ Thumbs.db
 
 !confusion_matrices.png
 !benchmark_out/*.png
+
+# Model Weights (>100MB cannot be pushed to standard GitHub)
+*.pt
+*.pth
+*.log

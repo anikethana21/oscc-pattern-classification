@@ -1,0 +1,55 @@
+classes:
+- cohesive
+- dispersive
+- no_feature
+- noncohesive
+dataloader:
+  num_workers: 2
+  pin_memory: true
+logging:
+  log_file: D:/Project/model6_earlyexit/training.log
+  print_every_n_batches: 20
+model:
+  dropout_fused: 0.3
+  shared_hidden: 256
+  unfreeze_last_n_phikon: 3
+paths:
+  m4_weights_s2: D:/Project/model4_cascade/weights_s2/stage2_best.pt
+  save_dir: D:/Project/model6_earlyexit/weights
+  test_csv: D:/Project/hybridpath_model/split_test.csv
+  train_csv: D:/Project/model4_cascade/m4_train.csv
+  val_csv: D:/Project/hybridpath_model/split_val.csv
+routing:
+  priority_order:
+  - no_feature
+  - dispersive
+  - cohesive
+  - noncohesive
+  resolution: first
+  thresholds:
+    cohesive: 0.7
+    dispersive: 0.7
+    no_feature: 0.7
+    noncohesive: 0.7
+training:
+  batch_size: 4
+  epochs: 50
+  focal_gamma: 2.0
+  focal_heads:
+  - dispersive
+  - noncohesive
+  loss_weights:
+    concluder: 1.0
+    head_cohesive: 1.0
+    head_dispersive: 1.5
+    head_no_feature: 1.0
+    head_noncohesive: 1.5
+  lr_cnn: 0.0001
+  lr_head: 0.0003
+  lr_phikon_b: 5.0e-06
+  patience: 10
+  pos_weight_auto: true
+  scheduler: cosine
+  seed: 42
+  warmup_epochs: 2
+  weight_decay: 0.0001
