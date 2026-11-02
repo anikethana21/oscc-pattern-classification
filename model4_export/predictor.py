@@ -30,13 +30,14 @@ NAMED_COLS = [
 ]
 
 
-def make_16_crops(img_512_tensor: torch.Tensor) -> torch.Tensor:
-    """Extracts 16 overlapping 224x224 crops from a 512x512 tensor [3, 512, 512]."""
-    coords = [0, 96, 192, 288]
+def make_16_crops(img_tensor_512: torch.Tensor) -> torch.Tensor:
+    """Exact 4x4 grid of 128x128 patches resized to 224x224 via bilinear interpolation."""
     crops = []
-    for y in coords:
-        for x in coords:
-            crop = img_512_tensor[:, y:y+224, x:x+224]
+    for r in range(4):
+        for c in range(4):
+            crop = img_tensor_512[:, r*128:(r+1)*128, c*128:(c+1)*128]
+            crop = F.interpolate(crop.unsqueeze(0), size=(224, 224),
+                                 mode="bilinear", align_corners=False).squeeze(0)
             crops.append(crop)
     return torch.stack(crops, dim=0)  # [16, 3, 224, 224]
 
@@ -45,7 +46,7 @@ class Model4Predictor:
     def __init__(
         self,
         s1_weights: str = "D:/Project/model4_cascade/weights_s1/stage1_best.pt",
-        s2_weights: str = "D:/Project/model4_cascade/weights_s2/stage2_best.pt",
+        s2_weights: str = "D:/Project/model4_3_retrained/weights/model4_3_best.pt",
         cascade_threshold: float = 0.75,
         device: str = "cuda" if torch.cuda.is_available() else "cpu"
     ):
