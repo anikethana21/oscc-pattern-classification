@@ -38,3 +38,4 @@ Thumbs.db
 *.pth
 *.log
 !model4_3_retrained/weights/model4_3_best.pt
+!model4_3_1_retrained/weights/model4_3_1_best.pt
