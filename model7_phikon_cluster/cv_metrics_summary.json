@@ -1,0 +1,51 @@
+{
+  "model": "Model 7 (Phikon Prototypical Clustering + Outlier Pruning)",
+  "dataset_size": 1450,
+  "classes": [
+    "cohesive",
+    "dispersive",
+    "noncohesive"
+  ],
+  "n_folds": 5,
+  "fold_metrics": [
+    {
+      "fold": 1,
+      "best_macro_f1": 0.8770309434635277,
+      "best_acc": 0.8758620689655172
+    },
+    {
+      "fold": 2,
+      "best_macro_f1": 0.861977361977362,
+      "best_acc": 0.8620689655172413
+    },
+    {
+      "fold": 3,
+      "best_macro_f1": 0.8247564610148244,
+      "best_acc": 0.8241379310344827
+    },
+    {
+      "fold": 4,
+      "best_macro_f1": 0.8227062381048991,
+      "best_acc": 0.8206896551724138
+    },
+    {
+      "fold": 5,
+      "best_macro_f1": 0.8107756604070159,
+      "best_acc": 0.8103448275862069
+    }
+  ],
+  "mean_cv_accuracy": 0.8386206896551723,
+  "std_cv_accuracy": 0.025563797231518123,
+  "mean_cv_macro_f1": 0.8394493329935259,
+  "std_cv_macro_f1": 0.025449089368564683,
+  "aggregated_oof_accuracy": 0.8386206896551724,
+  "aggregated_oof_macro_f1": 0.8394556132487168,
+  "per_class_oof_f1": {
+    "cohesive": 0.8666666666666667,
+    "dispersive": 0.8497297297297297,
+    "noncohesive": 0.8019704433497536
+  },
+  "total_pruned_outliers": 412,
+  "best_fold": 1,
+  "best_fold_f1": 0.8770309434635277
+}
