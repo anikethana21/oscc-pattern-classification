@@ -1,0 +1,32 @@
+{
+  "suite_runtime_minutes": 213.89089238246282,
+  "champion_model": "Model 9.3 (Multi-Prototype Sub-Clustering Net)",
+  "champion_macro_f1": 0.943094540939124,
+  "results": {
+    "model9_2": {
+      "error": "name 'np' is not defined",
+      "val_accuracy": 0.0,
+      "val_macro_f1": 0.0
+    },
+    "model9_1": {
+      "model": "Model 9.1 (Prototypical Tri-Branch Net)",
+      "val_accuracy": 0.9380165289256198,
+      "val_macro_f1": 0.938962472406181,
+      "per_class_f1": {
+        "cohesive": 0.9333333333333333,
+        "dispersive": 0.9668874172185431,
+        "noncohesive": 0.9166666666666666
+      }
+    },
+    "model9_3": {
+      "model": "Model 9.3 (Multi-Prototype Sub-Clustering Net)",
+      "val_accuracy": 0.9421487603305785,
+      "val_macro_f1": 0.943094540939124,
+      "per_class_f1": {
+        "cohesive": 0.9512195121951219,
+        "dispersive": 0.9594594594594594,
+        "noncohesive": 0.9186046511627907
+      }
+    }
+  }
+}

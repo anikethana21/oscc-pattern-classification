@@ -1,0 +1,10 @@
+{
+  "model": "Model 9.3 (Multi-Prototype Sub-Clustering Net)",
+  "val_accuracy": 0.9421487603305785,
+  "val_macro_f1": 0.943094540939124,
+  "per_class_f1": {
+    "cohesive": 0.9512195121951219,
+    "dispersive": 0.9594594594594594,
+    "noncohesive": 0.9186046511627907
+  }
+}
