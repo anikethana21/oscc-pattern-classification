@@ -1,0 +1,17 @@
+{
+  "model": "Model 8 (Deep Unfrozen Phikon ViT)",
+  "train_samples": 1208,
+  "val_samples": 242,
+  "classes": [
+    "cohesive",
+    "dispersive",
+    "noncohesive"
+  ],
+  "val_accuracy": 0.9380165289256198,
+  "val_macro_f1": 0.9387072461687542,
+  "per_class_f1": {
+    "cohesive": 0.9454545454545454,
+    "dispersive": 0.9530201342281879,
+    "noncohesive": 0.9176470588235294
+  }
+}
