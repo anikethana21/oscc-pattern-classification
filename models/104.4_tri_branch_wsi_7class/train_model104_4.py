@@ -29,7 +29,7 @@ from PIL import Image
 import pandas as pd
 import numpy as np
 
-sys.path.insert(0, r"D:\Project\model104_4_classifier")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from model104_4_architecture import Model104_4_ClassifierNet, FocalLoss, CLASSES_7
 
 LABEL_ENC = {n: i for i, n in enumerate(CLASSES_7)}
@@ -81,8 +81,8 @@ class OSCC104Dataset(Dataset):
 
 
 def train_model104_4(
-    manifest_csv=r"D:\Project\dataset_20x_master\manifest_104_4.csv",
-    save_dir=r"D:\Project\model104_4_classifier",
+    manifest_csv=str(Path(__file__).resolve().parents[2] / "data_manifests" / "dataset_20x" / "manifest_104_4.csv"),
+    save_dir=str(Path(__file__).resolve().parent),
     epochs=10,
     batch_size=4,
     patience=3,

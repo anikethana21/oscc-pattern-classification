@@ -5,18 +5,25 @@ env/
 
 # Raw Tile Images (large dataset folders)
 40x*
+20x*
 *.png
 *.jpg
 *.jpeg
 *.tif
 *.tiff
+*.svs
+
+# Keep UI and reporting diagrams/figures
+!reports/figures/*.png
+!benchmarks/benchmark_out/*.png
+!apps/streamlit_wsi_demo/*.png
 
 # Large Feature Embeddings (optional, available locally or via releases)
 *.npy
-!model/label_classes.npy
-!second_model/model/label_classes.npy
-!second_model/named_mean.npy
-!second_model/named_std.npy
+!models/01_baseline_resnet/label_classes.npy
+!models/02_dualpath_resnet/model/label_classes.npy
+!models/02_dualpath_resnet/named_mean.npy
+!models/02_dualpath_resnet/named_std.npy
 
 # Python Cache
 __pycache__/
@@ -30,12 +37,9 @@ __pycache__/
 Thumbs.db
 .DS_Store
 
-!confusion_matrices.png
-!benchmark_out/*.png
-
-# Model Weights (>100MB cannot be pushed to standard GitHub)
+# Model Weights (>100MB cannot be pushed to standard GitHub without Git LFS)
 *.pt
 *.pth
 *.log
-!model4_3_retrained/weights/model4_3_best.pt
-!model4_3_1_retrained/weights/model4_3_1_best.pt
+!models/04_cascade_series/4.3_tri_branch/weights/model4_3_best.pt
+!models/04_cascade_series/4.3.1_focal/weights/model4_3_1_best.pt

@@ -66,22 +66,22 @@ def main():
     overall_start = time.time()
 
     # Step 1: Run Model 104.4
-    ok_104 = run_script(r"D:\Project\model104_4_classifier\train_model104_4.py", "Model 104.4 Training (7-Class Gated Tri-Branch)")
+    ok_104 = run_script(r"D:\Project\models\104.4_tri_branch_wsi_7class\train_model104_4.py", "Model 104.4 Training (7-Class Gated Tri-Branch)")
 
     # Step 2: Run Model 109.4
-    ok_109 = run_script(r"D:\Project\model109_4_cluster\train_model109_4.py", "Model 109.4 Training (5-Class Multi-Prototype Metric Clustering)")
+    ok_109 = run_script(r"D:\Project\models\109.4_metric_clustering_5class\train_model109_4.py", "Model 109.4 Training (5-Class Multi-Prototype Metric Clustering)")
 
     # Step 3: Deploy weights to Desktop App
     log("\nDeploying model weights to Desktop Generator application...")
     os.makedirs(APP_WEIGHTS_DIR, exist_ok=True)
     
-    src_w104 = r"D:\Project\model104_4_classifier\weights\model104_4_best.pt"
+    src_w104 = r"D:\Project\models\104.4_tri_branch_wsi_7class\weights\model104_4_best.pt"
     dst_w104 = os.path.join(APP_WEIGHTS_DIR, "model104_4_best.pt")
     if os.path.exists(src_w104):
         shutil.copy2(src_w104, dst_w104)
         log(f"  Deployed: {dst_w104}")
 
-    src_w109 = r"D:\Project\model109_4_cluster\weights\model109_4_best.pt"
+    src_w109 = r"D:\Project\models\109.4_metric_clustering_5class\weights\model109_4_best.pt"
     dst_w109 = os.path.join(APP_WEIGHTS_DIR, "model109_4_best.pt")
     if os.path.exists(src_w109):
         shutil.copy2(src_w109, dst_w109)
@@ -90,14 +90,14 @@ def main():
     # Step 4: Copy artifacts (plots, metrics) to Brain Artifact Directory
     log("\nCopying evaluation charts and metrics to conversation artifacts...")
     artifacts_to_copy = [
-        r"D:\Project\model104_4_classifier\confusion_matrix_model104_4.png",
-        r"D:\Project\model104_4_classifier\roc_curve_model104_4.png",
-        r"D:\Project\model104_4_classifier\model104_4_metrics.json",
-        r"D:\Project\model109_4_cluster\confusion_matrix_model109_4.png",
-        r"D:\Project\model109_4_cluster\roc_curve_model109_4.png",
-        r"D:\Project\model109_4_cluster\clusters_2d_model109_4.png",
-        r"D:\Project\model109_4_cluster\model109_4_metrics.json",
-        r"D:\Project\model109_4_cluster\outlier_rejection_audit_109_4.csv"
+        r"D:\Project\models\104.4_tri_branch_wsi_7class\confusion_matrix_model104_4.png",
+        r"D:\Project\models\104.4_tri_branch_wsi_7class\roc_curve_model104_4.png",
+        r"D:\Project\models\104.4_tri_branch_wsi_7class\model104_4_metrics.json",
+        r"D:\Project\models\109.4_metric_clustering_5class\confusion_matrix_model109_4.png",
+        r"D:\Project\models\109.4_metric_clustering_5class\roc_curve_model109_4.png",
+        r"D:\Project\models\109.4_metric_clustering_5class\clusters_2d_model109_4.png",
+        r"D:\Project\models\109.4_metric_clustering_5class\model109_4_metrics.json",
+        r"D:\Project\models\109.4_metric_clustering_5class\outlier_rejection_audit_109_4.csv"
     ]
     for p in artifacts_to_copy:
         if os.path.exists(p):

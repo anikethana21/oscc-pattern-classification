@@ -30,7 +30,7 @@ from PIL import Image
 import pandas as pd
 import numpy as np
 
-sys.path.insert(0, r"D:\Project\model109_4_cluster")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from model109_4_architecture import Model109_4_MultiProtoNet, OutlierRadiusGate, CLASSES_5
 
 LABEL_ENC = {n: i for i, n in enumerate(CLASSES_5)}
@@ -82,8 +82,8 @@ class OSCC109Dataset(Dataset):
 
 
 def train_model109_4(
-    manifest_csv=r"D:\Project\dataset_20x_master\manifest_109_4.csv",
-    save_dir=r"D:\Project\model109_4_cluster",
+    manifest_csv=str(Path(__file__).resolve().parents[2] / "data_manifests" / "dataset_20x" / "manifest_109_4.csv"),
+    save_dir=str(Path(__file__).resolve().parent),
     epochs=10,
     batch_size=4,
     patience=3,
