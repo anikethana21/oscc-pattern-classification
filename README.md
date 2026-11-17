@@ -1,4 +1,4 @@
-﻿# Oral Squamous Cell Carcinoma (OSCC) Histopathology AI Research Platform
+# Oral Squamous Cell Carcinoma (OSCC) Histopathology AI Research Platform
 ### Multi-Scale Deep Vision Transformers, Dynamic Gated Fusion & Metric Sub-Clustering Systems
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.14.1%2Bcu126-EE4C2C.svg?style=flat&logo=pytorch)](https://pytorch.org/)
