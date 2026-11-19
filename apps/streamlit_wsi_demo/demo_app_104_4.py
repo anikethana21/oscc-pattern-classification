@@ -439,17 +439,6 @@ if image_to_process is not None:
         with m_col2:
             st.metric("Pattern Category", pred_class.capitalize())
 
-        # Gating contribution breakdown (Model 104.4 specific)
-        if weights_arr is not None:
-            st.markdown("##### 🧬 Tri-Branch Attention Gating Contribution")
-            g_col1, g_col2, g_col3 = st.columns(3)
-            with g_col1:
-                st.metric("Frozen ViT (Phikon)", f"{weights_arr[0]*100:.1f}%")
-            with g_col2:
-                st.metric("Tuned ViT (Oral)", f"{weights_arr[1]*100:.1f}%")
-            with g_col3:
-                st.metric("TileCNN Texture", f"{weights_arr[2]*100:.1f}%")
-
         st.markdown("---")
         
         # Probabilities Expander
@@ -462,3 +451,4 @@ if image_to_process is not None:
                 st.caption(f"Probability: `{p_val * 100:.2f}%`")
 else:
     st.info("👈 Please upload a histopathology image or select a pre-indexed sample tile from the sidebar to begin classification.")
+
